@@ -1,0 +1,13 @@
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\MailMover.dll
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\MailMover.pdb
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\MailMover.dll.manifest
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\MailMover.vsto
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.xml
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\obj\Debug\MailMover.csprojResolveAssemblyReference.cache
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\obj\Debug\MailMover.Properties.Resources.resources
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\obj\Debug\MailMover.csproj.GenerateResource.Cache
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\obj\Debug\MailMover.dll
+c:\_coding\ceforum\cs\intern\MailMover\src\MailMover\MailMover\obj\Debug\MailMover.pdb
