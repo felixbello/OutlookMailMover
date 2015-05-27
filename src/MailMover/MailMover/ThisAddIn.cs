@@ -14,9 +14,6 @@ namespace MailMover
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
             
-            this.Application.NewMail += new Microsoft.Office.Interop.Outlook.
-        ApplicationEvents_11_NewMailEventHandler
-        (MoveItem );
             
         }
 

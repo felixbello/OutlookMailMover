@@ -160,11 +160,11 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="MailMover.cs">
-      <SubType>Form</SubType>
+    <Compile Include="MailMoverMenu.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="MailMover.Designer.cs">
-      <DependentUpon>MailMover.cs</DependentUpon>
+    <Compile Include="MailMoverMenu.Designer.cs">
+      <DependentUpon>MailMoverMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="mover.cs">
       <SubType>Form</SubType>
@@ -175,8 +175,8 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <EmbeddedResource Include="MailMover.resx">
-      <DependentUpon>MailMover.cs</DependentUpon>
+    <EmbeddedResource Include="MailMoverMenu.resx">
+      <DependentUpon>MailMoverMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mover.resx">
       <DependentUpon>mover.cs</DependentUpon>
@@ -191,7 +191,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="MailMover_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
