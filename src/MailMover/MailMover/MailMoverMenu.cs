@@ -12,5 +12,11 @@ namespace MailMover
         {
 
         }
+
+        private void buttonMailMover_Click(object sender, RibbonControlEventArgs e)
+        {
+            mover moverForm = new mover();
+            moverForm.ShowDialog();
+        }
     }
 }

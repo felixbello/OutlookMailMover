@@ -36,7 +36,9 @@
         {
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
+            this.buttonMailMover = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
+            this.group1.SuspendLayout();
             // 
             // tab1
             // 
@@ -47,8 +49,15 @@
             // 
             // group1
             // 
+            this.group1.Items.Add(this.buttonMailMover);
             this.group1.Label = "group1";
             this.group1.Name = "group1";
+            // 
+            // buttonMailMover
+            // 
+            this.buttonMailMover.Label = "Mail Mover";
+            this.buttonMailMover.Name = "buttonMailMover";
+            this.buttonMailMover.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonMailMover_Click);
             // 
             // MailMoverMenu
             // 
@@ -58,6 +67,8 @@
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.MailMoverMenu_Load);
             this.tab1.ResumeLayout(false);
             this.tab1.PerformLayout();
+            this.group1.ResumeLayout(false);
+            this.group1.PerformLayout();
 
         }
 
@@ -65,6 +76,7 @@
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonMailMover;
     }
 
     partial class ThisRibbonCollection
