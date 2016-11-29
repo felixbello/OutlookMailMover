@@ -13,7 +13,7 @@ namespace MailMover
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            
+            System.Windows.Forms.MessageBox.Show("hey world");
             
         }
 
